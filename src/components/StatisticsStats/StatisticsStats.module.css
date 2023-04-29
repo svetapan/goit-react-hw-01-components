@@ -1,0 +1,16 @@
+.statList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-basis: calc((100% - 4 * 10px) / 5);
+    padding: 15px;
+}
+
+.item li:first-child {
+    border: 0;
+}

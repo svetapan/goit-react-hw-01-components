@@ -1,0 +1,38 @@
+.avatar {
+    background: #333;
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    width: 140px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.profile {
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    max-width: 352px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    padding: 40px;
+    color: #7b8a9a;
+}
+
+.name {
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #122236;
+    margin-bottom: 10px;
+}
+
+.tag {
+    font-size: 20px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,32 @@
+.transactionHistory {
+    text-align: center;
+    min-width: 360px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tableHead {
+    text-transform: uppercase;
+    background-color: #00bcd5;
+    color: #e6ffff;
+}
+.tableHead th {
+    padding: 10px;
+}
+
+.tableBody {
+    background-color: #fff;
+    color: #797b7c;
+}
+
+.tableBody td {
+    padding: 10px;
+}
+
+td:first-letter {
+    text-transform: uppercase;
+}
+
+.tableBody tr:nth-child(2n) {
+    background-color: #ecf1f4;
+    color: #797b7c;
+}

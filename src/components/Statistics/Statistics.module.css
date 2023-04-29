@@ -1,0 +1,8 @@
+.statistics {
+    background: #fff;
+    border-radius: 6px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 360px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+}

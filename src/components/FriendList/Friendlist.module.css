@@ -1,0 +1,31 @@
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    min-width: 300px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.true {
+   background-color: #50ae53; 
+}
+
+.false {
+     background-color: #f55a49;
+}
+
+
+.avatar {
+    display: block;
+    width: 100%;
+    width: 60px;
+}

@@ -1,4 +1,8 @@
-@import-normalize; /* bring in normalize.css styles */
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -7,9 +11,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font: 16px/calc(24 / 16) "Montserrat", sans-serif;
+  background: #e7ecf2;
+  color: #122236;
+  letter-spacing: 0.5px;
+  min-width: 360px;
+  padding: 30px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p,
+h2 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }

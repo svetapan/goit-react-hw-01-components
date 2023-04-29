@@ -1,0 +1,27 @@
+.stats {
+    display: flex;
+    background: #f3f6f9;
+    border-top: 2px solid #e7ecf2;
+    width: 100%;
+}
+
+.item:first-child {
+    border: 0;
+}
+
+.item {
+    flex: 1;
+    border-left: 2px solid #e7ecf2;
+    flex-basis: calc((100% - 2 * 30px) / 3);
+    padding: 20px;
+}
+
+.label {
+    display: block;
+    color: #7b8a9a;
+}
+
+.quantity {
+    font-weight: 700;
+    color: #23374c;
+}
