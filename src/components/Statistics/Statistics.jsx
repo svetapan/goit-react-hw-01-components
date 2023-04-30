@@ -1,13 +1,16 @@
-import data from 'data.json';
+import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
-import { StatisticsTitle } from '../StatisticsTitle/StatisticsTitle';
 import { StatisticsStats } from '../StatisticsStats/StatisticsStats';
 
-export const Statistics = () => {
-    return (
-        <section className={css.statistics}>
-            <StatisticsTitle title="Upload stats" stats={data} />
-            <StatisticsStats stats={data} />
-        </section> 
-    )
-}
+export const Statistics = ({ title, stats }) => {
+  return (
+    <section className={css.statistics}>
+      {title && <h2 className={css.title}>{title}</h2>}
+      <StatisticsStats statsData={stats} />
+    </section>
+  );
+};
+
+Statistics.prototype = {
+  title: PropTypes.string,
+};
